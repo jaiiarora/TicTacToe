@@ -37,9 +37,9 @@ h1{
     justify-content:center;
     align-items: center;
     font-size: 40px;
-    color: black);
+    color: black;
     user-select: none;
-    font-family: 'Deancing Script', cursive;
+    font-family:  cursive;
     
   }
 
@@ -60,4 +60,17 @@ h1{
     background-color: darken(#444, 10%);
     transform: scale(1.1);
     transition: all .2s;
+}
+
+.game-info{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.game-info div{
+  padding: 30px;
+font-size: 50px;
+margin-right: 100px;
 }
